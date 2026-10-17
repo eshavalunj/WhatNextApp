@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String n = etName.getText().toString();
                 if(n.isBlank()) {
-                    Toast.makeText(MainActivity.this, "name shud not be empty", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "name should not be empty", Toast.LENGTH_SHORT).show();
                     etName.requestFocus();
                     return;
                 }
